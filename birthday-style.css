@@ -5,6 +5,7 @@
     100% { background-position: 150% 150%; }
 }
 body {
+    overflow-y: scroll;
     text-align: center;
     font-family: 'Impact', sans-serif;
     overflow: hidden;
@@ -39,9 +40,9 @@ p {
     color: white;
     text-shadow: 2px 2px 8px black;
 }
-.cat-container {
+.cat-container, .cake-img {
 
-    height: 25vh;
+    height: 15vh;
 }
 .balloon {
     position: absolute;
