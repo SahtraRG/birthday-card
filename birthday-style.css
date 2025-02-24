@@ -5,7 +5,10 @@
     100% { background-position: 150% 150%; }
 }
 body {
-    overflow-y: scroll;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
     text-align: center;
     font-family: 'Impact', sans-serif;
     overflow: hidden;
